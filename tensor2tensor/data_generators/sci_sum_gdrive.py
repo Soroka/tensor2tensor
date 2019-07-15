@@ -47,9 +47,9 @@ summ_finalpath =  'gdrive/My Drive/SemanticScholarAbstractSectionSummaryDataSet/
 all_files = tf.gfile.Glob(summ_finalpath + "*")
                 
 #to delete later
-all_files = all_files[0:10]
+# all_files = all_files[0:10]
                 
-dftest = pd.read_parquet( all_files[0] )    
+
                 
 def example_generator(all_files, sum_token):
     # Generate examples
