@@ -133,3 +133,15 @@ class SummarizeScientificSectionsGdrive65k(text_problems.Text2TextProblem):
     #Approximate vocab size to generate. Only for VocabType.SUBWORD."""
         return 2**16  # ~32k
     #Santosh Edit: changed from 2**15 to 2**16
+    
+    @property
+    def max_subtoken_length(self):
+    """Maximum subtoken length when generating vocab.
+    SubwordTextEncoder vocabulary building is quadratic-time wrt this variable,
+    setting it to None uses the length of the longest token in the corpus.
+    Returns:
+      an integer or None
+    """
+        return 200
+    
+    
