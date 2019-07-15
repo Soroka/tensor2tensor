@@ -94,7 +94,7 @@ def write_raw_text_to_files(all_files, dataset_split, tmp_dir):
                 
                 
 @registry.register_problem
-class SummarizeScientificSections65k(text_problems.Text2TextProblem):
+class SummarizeScientificSectionsGdrive65k(text_problems.Text2TextProblem):
   #Summarize CNN and Daily Mail articles to their summary highlights.
 
     def generate_text_for_vocab(self, data_dir, tmp_dir):
