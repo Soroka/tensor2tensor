@@ -142,6 +142,6 @@ class SummarizeScientificSectionsGdrive65k(text_problems.Text2TextProblem):
     Returns:
       an integer or None
     """
-        return 200
+        return 50
     
     
