@@ -47,7 +47,7 @@ summ_finalpath =  'gdrive/My Drive/SemanticScholarAbstractSectionSummaryDataSet/
 all_files = tf.gfile.Glob(summ_finalpath + "*")
                 
 #to delete later
-all_files = all_files[0:1]
+# all_files = all_files[0:1]
                 
 
                 
