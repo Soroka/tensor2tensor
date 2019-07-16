@@ -42,12 +42,12 @@ END_TOKENS = [
     dm_double_close_quote, u")"
 ]
 
-summ_finalpath =  'gdrive/My Drive/CombinedArxivSummaryDataSets/ArxivAbstractionSectionalSummaryDataset/'
+summ_finalpath =  'gdrive/My Drive/CombinedArxivSummaryDataSets/TitleAbstractSummaryDatasets/'
 
 all_files = tf.gfile.Glob(summ_finalpath + "*")
                 
 #to delete later
-all_files = all_files[0:1]
+# all_files = all_files[0:1]
                 
 
                 
