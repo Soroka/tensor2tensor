@@ -131,7 +131,7 @@ class SummarizeScientificSectionsGdrive65k(text_problems.Text2TextProblem):
     @property
     def approx_vocab_size(self):
     #Approximate vocab size to generate. Only for VocabType.SUBWORD."""
-        return 2**16  # ~32k
+        return 2**12  # ~32k
     #Santosh Edit: changed from 2**15 to 2**16
     
     @property
