@@ -42,7 +42,7 @@ END_TOKENS = [
     dm_double_close_quote, u")"
 ]
 
-summ_finalpath =  'gdrive/My Drive/SemanticScholarAbstractSectionSummaryDataSet/'
+summ_finalpath =  'gdrive/My Drive/CombinedArxivSummaryDataSets/TitleAbstractSummaryDatasets'
 
 all_files = tf.gfile.Glob(summ_finalpath + "*")
                 
