@@ -143,6 +143,6 @@ class SummarizeScientificSectionsGdrive65k(text_problems.Text2TextProblem):
 #     Returns:
 #       an integer or None
 #     '''
-        return 50
+        return 100
     
     
