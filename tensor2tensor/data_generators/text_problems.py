@@ -321,7 +321,7 @@ class Text2TextProblem(problem.Problem):
     Returns:
       an integer or None
     """
-    return 50
+    return 5
 
   @property
   def batch_size_means_tokens(self):
